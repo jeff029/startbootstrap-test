@@ -1,6 +1,6 @@
 {
-  "title": "Modern Business",
-  "name": "startbootstrap-modern-business",
+  "title": "KTZL",
+  "name": "karma-tekchen-zabsal-ling",
   "version": "4.2.1",
   "scripts": {
     "start": "gulp watch"
