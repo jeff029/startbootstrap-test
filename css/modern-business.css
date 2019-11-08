@@ -21,6 +21,108 @@ body {
   margin-bottom: 30px;
 }
 
+/*****************************
+ *   12. contact-area
+ ***************************** */
+@media only screen and (max-width: 767px) {
+  .contact-info {
+    margin-bottom: 30px;
+  }
+}
+
+.contact-info .single-info {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contact-info .single-info:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contact-info .single-info h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7d91aa;
+}
+
+.contact-info .single-info p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-info .single-info a {
+  color: #333;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.contact-form {
+  border: 1px solid #cad4de;
+  padding: 40px;
+  border-radius: 3px;
+}
+
+.contact-form input:not([type="submit"]),
+.contact-form textarea {
+  border: 1px solid #cad4de;
+  width: 100%;
+  background-color: #f9fbfd;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  height: 40px;
+  text-indent: 20px;
+}
+
+.contact-form input:not([type="submit"])::-webkit-input-placeholder,
+.contact-form textarea::-webkit-input-placeholder {
+  color: #7d91aa;
+}
+
+.contact-form input:not([type="submit"])::-moz-placeholder,
+.contact-form textarea::-moz-placeholder {
+  color: #7d91aa;
+}
+
+.contact-form input:not([type="submit"]):-ms-input-placeholder,
+.contact-form textarea:-ms-input-placeholder {
+  color: #7d91aa;
+}
+
+.contact-form input:not([type="submit"]):-moz-placeholder,
+.contact-form textarea:-moz-placeholder {
+  color: #7d91aa;
+}
+
+.contact-form input:not([type="submit"]):focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 1px solid;
+}
+
+.contact-form textarea {
+  height: 120px;
+  padding-top: 10px;
+}
+
+.google-map {
+  height: 500px;
+  width: 100%;
+  display: block;
+  background-color: #eee;
+}
+
+@media only screen and (max-width: 767px) {
+  .google-map {
+    height: 280px;
+  }
+}
+
+.google-map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
 /* Footer */
 
 /*********footer*******************/
