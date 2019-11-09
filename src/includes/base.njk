@@ -19,6 +19,8 @@
 
         <!-- Footer -->
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <!--Netlify Identity Widget -->
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     </head>
 
@@ -188,6 +190,23 @@
         <!--Footer JS -->
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!--Netlify Identity Widget -->
+        <script>
+            if (window.netlifyIdentity) {
+                window
+                    .netlifyIdentity
+                    .on("init", user => {
+                        if (!user) {
+                            window
+                                .netlifyIdentity
+                                .on("login", () => {
+                                    document.location.href = "/admin/";
+                                });
+                        }
+                    });
+            }
+        </script>
+
     </body>
 
 </html>
