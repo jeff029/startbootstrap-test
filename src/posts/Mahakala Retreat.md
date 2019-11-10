@@ -9,4 +9,4 @@ date: '2019-11-01'
 tags: 'posts'
 ---
 
-# Mahakala Retreat
+# Mahakala Retreat Nov 23, 2019
