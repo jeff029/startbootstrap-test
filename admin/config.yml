@@ -9,11 +9,11 @@ publish_mode: editorial_workflow
 media_folder: 'img' # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: 'post'
+  - name: 'posts'
     label: 'Posts'
     folder: 'posts'
     create: true
-    slug: '{{ slug }}'
+    slug: '{{slug}}'
     fields:
       - { label: 'Type', name: 'type', widget: 'hidden', default: 'News' }
       - { label: 'Title', name: 'title', widget: 'string' }
